@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Resetea valores por defecto*/
+
+html,
+body {
+    background-image: url(../imagenes/Fondos/fondoNegro.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Kanit', sans-serif;
+    font-size: 62.5%;
+}
+
+/* para cambiar el valor por defecto de la funete de 16px a 10px*/
+
+/*Estilos header/navegacion---------------------------------------------------------------------header-- */
+
+header {
+    font-size: 2.5rem;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+.header__nav {
+    background-image: url(../imagenes/Fondos/fondoBlanco.jpg);
+    
+}
+.header__logo {
+    height: 11vh;
+    img {
+        height: 100%;
+        border-radius: 1rem;
+    }
+}
+
+.nav-item a {
+    background-color: rgba(0, 0, 0, 0.1);
+    width: 16rem;
+    margin: 0.5rem;
+    text-align: center;
+}
+
+
+.nav-item a:hover {
+    background-color: rgba(255, 0, 0, 0.507);
+}
+
+/*-------------------------------------- Estilos para titulos*/
+$color: white;
+
+h1 {
+    text-align: right;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 5rem;
+    letter-spacing: 0.5rem;
+    color: $color;
+    padding: 0 5rem 0 0;
+    background-color: black;
+    display: none;
+}
+
+h2 {
+    text-align: left;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3rem;
+    letter-spacing: 0.3rem;
+    color: red;
+}
+
+.accesorios__titulo,
+.modelos__titulo,
+.contacto__titulo,
+.envios__titulo{
+    color: $color;
+    font-size: 2rem;
+    text-align: right;
+    font-size: 3rem;
+    font-style: italic;
+    padding: 0 5rem;
+    background-color: black;
+    margin: 0;
+
+}
+
+h3 {
+    color: $color;
+    font-size: 2rem;
+    text-align: right;
+    font-style: italic;
+    padding: 0 5rem;
+    background-color: rgba(255, 0, 0, 0.507);
+}
+
+h4 {
+    color: $color;
+    font-size: 1.5rem;
+    text-align: left;
+    margin: 0%;
+}
+.envios__titulo-retiro {
+    font-size: 2.5rem;
+    text-align: center;
+    background-color: black;
+    font-style: normal;
+}
+
+h5 {
+    color: $color;
+    font-size: 1.1rem;
+    text-align: left;
+}
+
+h6 {
+    color: $color;
+    font-size: 2rem;
+    margin: 0;
+}
+
+/*-----------------------------------------------------------Estilos para footer*/
+
+footer {
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-top: solid black 0.1rem;
+    h5 {
+        font-size: 2rem;
+    }
+}
+
+.footer__logo {
+    height: 20vh;
+    img {
+        height: 100%;
+        border-radius: 1.2rem;
+    }
+}
+
+.footer__secciones {
+    color: white;
+    li {
+        margin: 3rem 0;
+    }
+    li a {
+        text-decoration: none;
+        color: white;
+        font-size: 2rem;
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 0.5rem 1rem;
+    }
+}
+
+.footer__pagos {
+    margin: 3rem 2rem 0 0;
+    li{
+    margin: 2rem 0;
+    }
+    a {
+    width: 7rem;
+    }
+    img {
+        width: 7rem;
+        height: 4rem;
+        border: solid 0.2rem black;
+        background-color: white;
+        padding: 0.5rem;
+    }
+}
+
+.footer__redes {
+    margin: 4rem 0 0 1rem;
+    li{
+    background-color:black;
+    border: solid 0.1rem white;
+    border-radius: 25px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    }
+}
+.footer__encontranos li iframe{
+    width: 20rem;
+    height: 20rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 0.5rem;
+}
+
+.footer__encontranos li p{
+    color: white;
+    font-size: 1.5rem;
+}
+
+.footer__pie {
+    width: 100%;
+    height: 2rem;
+    font-size: 1.1rem;
+    padding: 0.5rem;
+    margin: 0;
+    text-align: end;
+    background-color: black;
+    color: white;
+}
+/*----------animacion-------*/
+
+.header__logo:hover {
+    display: inline-block;
+    margin: 0 0.5rem;
+    animation: pulse;
+    animation-duration: 1s;
+}
+
+.footer__logo:hover {
+    animation: pulse;
+    animation-duration: 1s;
+
+}
+
+.fotoAccesorios li:hover {
+    animation: headShake;
+    animation-duration: 2s;
+}
+
+
+.footer__redes li:hover{
+    border: solid 0.2rem  rgb(252, 102, 102);
+}
+
+
+.footer__secciones li a:hover {
+    background-color:  rgb(252, 102, 102);
+}
+
+
+.footer__encontranos li iframe:hover{
+    background-color:  rgb(252, 102, 102);
+    
+}

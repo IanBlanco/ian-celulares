@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- boostrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <!-- link animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="../css/style.css">
+    <meta name="description" content="Contactate con Ians Phones para recibir notificaciones sobre ofertas y las novedades en nuestra página.">
+    <meta name="keywords" content="contacto, novedades, ofertas, ofretas celulares, notificaciones">
+    <title>Ian`s Phones / Contacto</title>
+</head>
+
+<body>
+    <header>
+        <div class="container-fluid">
+            <div class="row">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light header__nav">
+                    <div class="container-fluid">
+                      <a class="navbar-brand header__logo" href="../index.html"><img src="../imagenes/logoCelu.png" alt="logo"></a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse justify-content-end" id="navbarText">
+                        <ul class="navbar-nav">
+                          <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="../paginas/modelos.html">MODELOS</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="../paginas/accesorios.html">ACCESORIOS</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="../paginas/envios.html">ENVIOS</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active" href="../paginas/contacto.html">CONTACTO</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </nav>
+            </div>
+        </div>
+    
+    </header>
+    <h1>Ian´s Phones</h1>
+    <h2 class="contacto__titulo">CONTACTO</h2>
+    <h3>Contactate con nosotros para recibir todas las novedades!</h3>
+
+    <section class="contacto__formulario">
+        <h4>FORMULARIO</h4>
+        <form>
+            <div>
+                <label for="nombre">Nombre:</label>
+                <input required name="nombre" id="name" type="text" placeholder="Escribe tu Nombre">
+            </div>
+
+            <div>
+                <label for="apellido">Apellido:</label>
+                <input required name="apellido" id="apellido" type="text" placeholder="Escribe tu Apellido">
+            </div>
+            <div>
+                <label for="edad">Edad:</label>
+                <input required name="edad" id="edad" type="number">
+            </div>
+
+            <div>
+                <label for="sexo">Sexo:</label>
+                <select name="Sexo" id="Sexo">
+                    <option value="m">Masculino</option>
+                    <option value="f">Femenino</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="email">Email:</label>
+                <input required type="email" name="email" id="email">
+            </div>
+
+            <fieldset>
+                <legend>Dejanos tu consulta:</legend>
+                <textarea name="consulta" id="consulta" cols="75" rows="6" maxlength="140"></textarea>
+            </fieldset>
+
+            <div>
+                <label for="checkb">Acepto recibir información sobre novedades de la página.</label>
+                <input type="checkbox" name="checkb" id="check">
+            </div>
+
+            <div>
+                <input type="reset" value="Borrar">
+                <input type="submit" value="Enviar">
+            </div>
+        </form>
+    </section>
+
+
+    <footer class="bd-footer">
+        <div class="container py-5">
+          <div class="row">
+            <div class="col-7 col-md-4 col-lg-3 footer__logo">
+              <a class="  d-inline-flex align-items-center mb-2 link-dark text-decoration-none " href="/" aria-label="Bootstrap">
+                <img src="../imagenes/logoCelu.png" alt="">
+            </a>
+            </div>
+            <div class="col-5 col-md-4 col-lg-2 d-flex justify-content-center footer__secciones-caja">
+              <h5>SECCIONES:</h5>
+              <ul class="list-unstyled footer__secciones">
+                <li class="mb-2"><a href="../paginas/modelos.html">MODELOS</a></li>
+                <li class="mb-2"><a href="../paginas/accesorios.html">ACCESORIOS</a></li>
+                <li class="mb-2"><a href="../paginas/envios.html">ENVIOS</a></li>
+                <li class="mb-2"><a href="../paginas/contacto.html">CONTACTO</a></li>
+              </ul>
+            </div>
+            <div class="col-6 col-md-4 col-lg-2 d-flex justify-content-center align-items-start">
+              <h5>REDES:</h5>
+              <ul class="footer__redes list-unstyled">
+                  <li class="mb-2"><a href="#"><img src="../imagenes/instagram.png" alt="logo de instagram"></a></li>
+                  <li class="mb-2"><a href="#"><img src="../imagenes/facebook.png" alt="logo de facebook"></a></li>
+                  <li class="mb-2"><a href="#"><img src="../imagenes/email.jpg" alt="logo de email"> </a></li>
+                  <li class="mb-2"><a href="#"><img src="../imagenes/whatsapp.png" alt="logo de whatsapp"></a></li>
+              </ul>
+            </div>
+            <div class="col-6 col-md-6 col-lg-2 d-flex justify-content-center align-items-start " >
+                <h5>MEDIOS DE PAGO:</h5>
+                <ul class="footer__pagos list-unstyled">
+                  <li><a href="#"><img src="../imagenes/mediosPago/visa.png" alt="pago con tarjeta visa"></a></li>
+                  <li><a href="#"><img src="../imagenes/mediosPago/mastercard.jpg" alt="pago con tarjeta mastercad"></a></li>
+                  <li><a href="#"><img src="../imagenes/mediosPago/mercadopago.jpg" alt="mercado pago"></a></li>
+                  <li><a href="#"><img src="../imagenes/mediosPago/efectivo.png" alt="pago en efectivo"></a></li>
+                </ul>
+              </div>
+            <div class="col-12 col-md-6 col-lg-3 d-flex  flex-column justify-content-end align-items-center">
+              <h5>ENCONTRANOS</h5>
+              <ul class="list-unstyled footer__encontranos">
+                <li class="d-flex  flex-column justify-content-end align-items-center">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d44096.46031632972!2d-58.413624423670534!3d-34.768462503512914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sar!4v1632279545503!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </li>
+                <li>
+                  <p>Estamos en Lomas de Zamora</p>
+                </li>
+                <li>
+                  <p>Buenos Aires, Argentina</p>
+                </li>
+                </ul>
+            </div>
+            
+          </div>
+        </div>
+        <p class="footer__pie">Desarrollador: Ian L. Blanco Linkedin: XXXXXX 2021</p>
+</footer>>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

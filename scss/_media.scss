@@ -1,0 +1,45 @@
+/* ------------------------------------------- MEDIA QUARIE------*/
+
+
+@media (max-width: 768px) {  /*---------ipad------------*/
+ 
+    .seccionPrimaria ul li {
+        display: inline-block;
+        margin: 2%;
+    }
+
+    .seccionPrimaria ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+}
+
+    
+
+/*------------moto g4-------*/
+
+@media (max-width: 360px) { 
+
+    .seccionPrimaria ul li {
+        display: inline-block;
+        margin: 2%;
+    }
+
+    .seccionPrimaria ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .footer__logo {
+        width: 55%;
+    }
+    .footer__secciones-caja {
+        display: inline-block;
+        flex-wrap: wrap;
+    }
+}

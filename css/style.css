@@ -1,0 +1,830 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@300;500&display=swap");
+/*Fuentes importadas*/
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/*Resetea valores por defecto*/
+html,
+body {
+  background-image: url(../imagenes/Fondos/fondoNegro.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Kanit', sans-serif;
+  font-size: 62.5%;
+}
+
+/* para cambiar el valor por defecto de la funete de 16px a 10px*/
+/*Estilos header/navegacion---------------------------------------------------------------------header-- */
+header {
+  font-size: 2.5rem;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+.header__nav {
+  background-image: url(../imagenes/Fondos/fondoBlanco.jpg);
+}
+
+.header__logo {
+  height: 11vh;
+}
+
+.header__logo img {
+  height: 100%;
+  border-radius: 1rem;
+}
+
+.nav-item a {
+  background-color: rgba(0, 0, 0, 0.1);
+  width: 16rem;
+  margin: 0.5rem;
+  text-align: center;
+}
+
+.nav-item a:hover {
+  background-color: rgba(255, 0, 0, 0.507);
+}
+
+/*-------------------------------------- Estilos para titulos*/
+h1 {
+  text-align: right;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 5rem;
+  letter-spacing: 0.5rem;
+  color: white;
+  padding: 0 5rem 0 0;
+  background-color: black;
+  display: none;
+}
+
+h2 {
+  text-align: left;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3rem;
+  letter-spacing: 0.3rem;
+  color: red;
+}
+
+.accesorios__titulo,
+.modelos__titulo,
+.contacto__titulo,
+.envios__titulo {
+  color: white;
+  font-size: 2rem;
+  text-align: right;
+  font-size: 3rem;
+  font-style: italic;
+  padding: 0 5rem;
+  background-color: black;
+  margin: 0;
+}
+
+h3 {
+  color: white;
+  font-size: 2rem;
+  text-align: right;
+  font-style: italic;
+  padding: 0 5rem;
+  background-color: rgba(255, 0, 0, 0.507);
+}
+
+h4 {
+  color: white;
+  font-size: 1.5rem;
+  text-align: left;
+  margin: 0%;
+}
+
+.envios__titulo-retiro {
+  font-size: 2.5rem;
+  text-align: center;
+  background-color: black;
+  font-style: normal;
+}
+
+h5 {
+  color: white;
+  font-size: 1.1rem;
+  text-align: left;
+}
+
+h6 {
+  color: white;
+  font-size: 2rem;
+  margin: 0;
+}
+
+/*-----------------------------------------------------------Estilos para footer*/
+footer {
+  display: inline-block;
+  width: 100%;
+  margin: 0;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-top: solid black 0.1rem;
+}
+
+footer h5 {
+  font-size: 2rem;
+}
+
+.footer__logo {
+  height: 20vh;
+}
+
+.footer__logo img {
+  height: 100%;
+  border-radius: 1.2rem;
+}
+
+.footer__secciones {
+  color: white;
+}
+
+.footer__secciones li {
+  margin: 3rem 0;
+}
+
+.footer__secciones li a {
+  text-decoration: none;
+  color: white;
+  font-size: 2rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 0.5rem 1rem;
+}
+
+.footer__pagos {
+  margin: 3rem 2rem 0 0;
+}
+
+.footer__pagos li {
+  margin: 2rem 0;
+}
+
+.footer__pagos a {
+  width: 7rem;
+}
+
+.footer__pagos img {
+  width: 7rem;
+  height: 4rem;
+  border: solid 0.2rem black;
+  background-color: white;
+  padding: 0.5rem;
+}
+
+.footer__redes {
+  margin: 4rem 0 0 1rem;
+}
+
+.footer__redes li {
+  background-color: black;
+  border: solid 0.1rem white;
+  border-radius: 25px;
+  width: 50px;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer__encontranos li iframe {
+  width: 20rem;
+  height: 20rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 0.5rem;
+}
+
+.footer__encontranos li p {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.footer__pie {
+  width: 100%;
+  height: 2rem;
+  font-size: 1.1rem;
+  padding: 0.5rem;
+  margin: 0;
+  text-align: end;
+  background-color: black;
+  color: white;
+}
+
+/*----------animacion-------*/
+.header__logo:hover {
+  display: inline-block;
+  margin: 0 0.5rem;
+  -webkit-animation: pulse;
+          animation: pulse;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+
+.footer__logo:hover {
+  -webkit-animation: pulse;
+          animation: pulse;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+
+.fotoAccesorios li:hover {
+  -webkit-animation: headShake;
+          animation: headShake;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+
+.footer__redes li:hover {
+  border: solid 0.2rem #fc6666;
+}
+
+.footer__secciones li a:hover {
+  background-color: #fc6666;
+}
+
+.footer__encontranos li iframe:hover {
+  background-color: #fc6666;
+}
+
+/*-------redes sociales-----*/
+.contenedor__redes {
+  display: inline-block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+.instagram-icono {
+  background-color: white;
+  background-image: url("../imagenes/instagram.png");
+  margin: 1rem;
+  width: 24px;
+  height: 24px;
+  border-radius: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.facebook-icono {
+  background-color: white;
+  background-image: url("../imagenes/facebook.png");
+  margin: 1rem;
+  width: 24px;
+  height: 24px;
+  border-radius: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.whatsapp-icono {
+  background-color: white;
+  background-image: url("../imagenes/whatsapp.png");
+  margin: 1rem;
+  width: 24px;
+  height: 24px;
+  border-radius: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+/* ----------------------------------------------------Estilos para seccion primaria*/
+.seccionPrimaria {
+  margin: 1rem;
+}
+
+.seccionPrimaria h2 {
+  padding: 0 2rem;
+}
+
+.seccionPrimaria ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 1rem 0 2rem 0;
+}
+
+.seccionPrimaria ul li {
+  display: inline-block;
+}
+
+/*-------------------------------------------------- Estilos para imagenes index */
+.imagenesSeccion li img {
+  width: 10rem;
+  height: 10rem;
+  margin: 0rem 1rem;
+  border: 0.2rem solid white;
+  border-radius: 1rem;
+}
+
+/* -----------------------Estilos para Modelos */
+.modelosSection {
+  display: inline-block;
+  height: 76vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.filtroModelos {
+  width: 25%;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: 2rem;
+}
+
+.filtroModelos ul {
+  color: white;
+  width: 100%;
+  font-size: 2rem;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.filtroModelos__izquierda {
+  text-align: left;
+  padding: 1rem 2rem;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.filtroModelos__derecha {
+  height: 4rem;
+  text-align: right;
+  list-style-type: none;
+  margin: 0 2rem;
+}
+
+.fotosModelos {
+  width: 65%;
+  height: 70vh;
+  border: 0.2rem solid black;
+  margin: 1.5rem;
+  padding: 1.5rem;
+  overflow: scroll;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.fotosModelos ul {
+  width: 100%;
+  height: 100%;
+  list-style-type: none;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+  grid-column-gap: 1%;
+  grid-row-gap: 1%;
+}
+
+.fotosModelos ul li {
+  height: 90%;
+}
+
+.fotosModelos li img {
+  width: 100%;
+  border-radius: 2rem;
+}
+
+.submenuMarcas {
+  list-style-type: none;
+  display: none;
+}
+
+/*---------------------------------------------Estilos para Accesorios*/
+.accesoriosSection {
+  display: inline-block;
+  height: 100vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.filtroAccesorios {
+  width: 30%;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: 2rem;
+}
+
+.filtroAccesorios ul {
+  color: white;
+  width: 100%;
+  font-size: 2rem;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.filtroAccesorios__izquierda {
+  text-align: left;
+  padding: 1rem 2rem;
+  background-color: rgba(0, 0, 5, 0.7);
+}
+
+.filtroAccesorios__derecha {
+  height: 4rem;
+  text-align: right;
+  list-style-type: none;
+  margin: 0 2rem;
+}
+
+.fotoAccesorios {
+  width: 60%;
+  height: 95vh;
+  border: 0.2rem solid black;
+  margin: 1.5rem;
+  padding: 1.5rem;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.fotoAccesorios ul {
+  width: 100%;
+  height: 100%;
+  list-style-type: none;
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "uno dos tres tres" "cinco cinco siete ocho" "cinco cinco once doce" "trece catorce veinte veinte" "diecisiete dieciocho veinte veinte";
+  -ms-grid-rows: 20% 18% 18% 18% 18%;
+      grid-template-rows: 20% 18% 18% 18% 18%;
+  -ms-grid-columns: 25% 24% 25% 20%;
+      grid-template-columns: 25% 24% 25% 20%;
+  grid-row-gap: 2%;
+  grid-column-gap: 2%;
+}
+
+.fotoAccesorios ul li img {
+  height: 100%;
+  width: 100%;
+  opacity: 0.8;
+}
+
+.fotoAccesorios ul li img:hover {
+  opacity: 1;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.auriculares__dos {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: uno;
+}
+
+.auriculares__tres {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: dos;
+}
+
+.cargador__uno {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 2;
+  grid-area: tres;
+}
+
+.parlante__uno {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: cinco;
+}
+
+.cargadorIphone__uno {
+  -ms-grid-row: 5;
+  -ms-grid-column: 2;
+  grid-area: dieciocho;
+}
+
+.cargador__dos {
+  -ms-grid-row: 2;
+  -ms-grid-column: 4;
+  grid-area: ocho;
+}
+
+.cargadorMotorola__uno {
+  -ms-grid-row: 4;
+  -ms-grid-column: 2;
+  grid-area: catorce;
+}
+
+.headset__uno {
+  -ms-grid-row: 5;
+  -ms-grid-column: 1;
+  grid-area: diecisiete;
+}
+
+.cargadorMotorola__dos {
+  -ms-grid-row: 4;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 2;
+  grid-area: veinte;
+}
+
+.fotoAccesorios ul li {
+  height: 100%;
+}
+
+.fotoAccesorios li img {
+  width: 100%;
+  border-radius: 2rem;
+}
+
+/*-------------------------------------------------Estilos seccion envios*/
+.envios__seccion {
+  color: white;
+  font-size: 2rem;
+  font-style: italic;
+  padding: 0rem 1rem;
+  display: inline-block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 0 2rem 0;
+}
+
+.envios__seccion div {
+  width: 68%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.envios__seccion div h5 {
+  font-size: 2.5rem;
+  padding: 0.5rem;
+  font-style: normal;
+  background-color: rgba(0, 0, 0, 0.7);
+  text-align: center;
+}
+
+.envios__seccion ul li {
+  list-style-type: none;
+  margin: 0 2rem;
+}
+
+.envios__zona {
+  height: 35vh;
+  width: 100%;
+  display: inline-block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.envios__zona li {
+  width: 45%;
+  height: 90%;
+  margin: 0 6%;
+  border-radius: 1.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 0.1rem solid white;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.envios__zona li img {
+  height: 80%;
+  width: 95%;
+  margin: 1rem 0rem 0rem 0rem;
+  border-radius: 1rem;
+}
+
+.parrafoPie p {
+  text-align: right;
+  margin: 0rem 2rem;
+}
+
+/* ------------------------------------------Estilos para formulario*/
+.contacto__formulario {
+  color: white;
+  font-size: 2rem;
+  padding: 0.5rem 0.5rem 0.5rem 1rem;
+  margin: 1%;
+  display: inline-block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contacto__formulario div {
+  margin: 0  0 2% 0;
+}
+
+.contacto__formulario h4 {
+  font-size: 2.5rem;
+  padding: 0.5rem;
+  background-color: rgba(0, 0, 5, 0.7);
+  width: 50%;
+  text-align: center;
+}
+
+.contacto__formulario fieldset {
+  width: 100%;
+}
+
+fieldset textarea {
+  margin: 0.5rem 0.5rem 0.5rem 1rem;
+  width: 95%;
+}
+
+fieldset legend {
+  font-size: 2rem;
+}
+
+form {
+  background-color: rgba(0, 0, 5, 0.5);
+  width: 50%;
+  padding: 1% 2.5% 1% 2.5%;
+}
+
+/* ------------------------------------------- MEDIA QUARIE------*/
+@media (max-width: 768px) {
+  /*---------ipad------------*/
+  .seccionPrimaria ul li {
+    display: inline-block;
+    margin: 2%;
+  }
+  .seccionPrimaria ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+/*------------moto g4-------*/
+@media (max-width: 360px) {
+  .seccionPrimaria ul li {
+    display: inline-block;
+    margin: 2%;
+  }
+  .seccionPrimaria ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .footer__logo {
+    width: 55%;
+  }
+  .footer__secciones-caja {
+    display: inline-block;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,44 @@
+/* ------------------------------------------Estilos para formulario*/
+
+.contacto__formulario {
+    color: white;
+    font-size: 2rem;
+    padding: 0.5rem 0.5rem 0.5rem 1rem;
+    margin: 1%;
+    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacto__formulario div {
+    margin: 0  0 2% 0;
+}
+
+.contacto__formulario h4 {
+    font-size: 2.5rem;
+    padding: 0.5rem;
+    background-color: rgba(0, 0, 5, 0.7);
+    width: 50%;
+    text-align: center;
+}
+
+.contacto__formulario fieldset {
+    width: 100%;
+}
+
+fieldset textarea {
+    margin: 0.5rem 0.5rem 0.5rem 1rem;
+    width: 95%;
+}
+
+fieldset legend {
+    font-size: 2rem;
+}
+
+form {
+    background-color: rgba(0, 0, 5, 0.5);
+    width: 50%;
+    padding: 1% 2.5% 1% 2.5%;
+}
