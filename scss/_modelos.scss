@@ -1,5 +1,45 @@
-/* -----------------------Estilos para Modelos 
+/* -----------------------Estilos para Modelos */
 
+.solapas__modelos{
+    height: 4rem;
+    li a {
+        font-size: 2rem;
+        color: white;
+    }
+}
+ 
+.galeria__iphone {
+    width: 90%;
+    margin: 2rem auto 1rem auto;
+    padding: 0 0 1rem 0;
+    background-color: rgba(255, 0, 0, 0.3);
+    H4 {
+        font-size: 2.5rem;
+        margin: 0 0 2rem 0;
+        padding: 0 1.5rem;
+        width: 100%;
+        background-color: black;
+    }
+}
+
+.cards__modelos {
+    width: 22rem;
+    margin: 0 auto;
+    div div h5 {
+        font-size: 2rem;
+        padding: 0.3rem;
+        text-align: right;
+    }
+    div div p {
+        font-size: 1.5rem;
+        color: white;
+    }
+    div .card-body {
+        background-color: black;
+    }
+}
+
+/*
 .modelosSection {
     display: inline-block;
     height: 76vh;
