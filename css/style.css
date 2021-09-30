@@ -434,12 +434,11 @@ footer h5 {
 
 .fotosModelos {
   width: 65%;
-  height: 70vh;
+  height: 80vh;
   border: 0.2rem solid black;
   margin: 1.5rem;
   padding: 1.5rem;
-  overflow: scroll;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(235, 4, 4, 0.5);
 }
 
 .fotosModelos ul {
@@ -454,6 +453,7 @@ footer h5 {
       grid-template-rows: 1fr 1fr 1fr;
   grid-column-gap: 1%;
   grid-row-gap: 1%;
+  background-color: yellow;
 }
 
 .fotosModelos ul li {
