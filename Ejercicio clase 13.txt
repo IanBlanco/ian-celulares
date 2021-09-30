@@ -1,8 +1,0 @@
-Ejercicios clase 13:
-Aplique la etiqueta meta description y meta keywords para el index y cada una de las 4 paginas de mi proyecto.
-A cada HTML con su titulo descrptivo de la seccion que corresponde.
-Reordene los encabezados de todos los HTML respetando el orden de jerarquias, todos los h2 antes eran h3, agregue h3 en secciones de envios y contacto para completar la escala de jerarquias.
-Complete los "alt" de los logos e imagenes del footer.
-Ademas cambie el footer por completo, configurando las dos medidas que ya anteriorimente utilizaba en las media query.
-
-
