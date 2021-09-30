@@ -384,92 +384,83 @@ footer h5 {
   border-radius: 1rem;
 }
 
-/* -----------------------Estilos para Modelos */
+/* -----------------------Estilos para Modelos 
+
 .modelosSection {
-  display: inline-block;
-  height: 76vh;
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+    display: inline-block;
+    height: 76vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
 }
 
 .filtroModelos {
-  width: 25%;
-  background-color: rgba(0, 0, 0, 0.5);
-  margin: 2rem;
+    width: 25%;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 2rem;
 }
 
 .filtroModelos ul {
-  color: white;
-  width: 100%;
-  font-size: 2rem;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+    color: white;
+    width: 100%;
+    font-size: 2rem;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 .filtroModelos__izquierda {
-  text-align: left;
-  padding: 1rem 2rem;
-  background-color: rgba(0, 0, 0, 0.7);
+    text-align: left;
+    padding: 1rem 2rem;
+    background-color: rgba(0, 0, 0, 0.7);
+
 }
 
 .filtroModelos__derecha {
-  height: 4rem;
-  text-align: right;
-  list-style-type: none;
-  margin: 0 2rem;
+    height: 4rem;
+    text-align: right;
+    list-style-type: none;
+    margin: 0 2rem;
 }
 
 .fotosModelos {
-  width: 65%;
-  height: 80vh;
-  border: 0.2rem solid black;
-  margin: 1.5rem;
-  padding: 1.5rem;
-  background-color: rgba(235, 4, 4, 0.5);
+    width: 65%;
+    height: 80vh;
+    border: 0.2rem solid black;
+    margin: 1.5rem;
+    padding: 1.5rem;
+    background-color: rgba(235, 4, 4, 0.5);
 }
 
 .fotosModelos ul {
-  width: 100%;
-  height: 100%;
-  list-style-type: none;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr 1fr 1fr 1fr;
-      grid-template-columns: 1fr 1fr 1fr 1fr;
-  -ms-grid-rows: 1fr 1fr 1fr;
-      grid-template-rows: 1fr 1fr 1fr;
-  grid-column-gap: 1%;
-  grid-row-gap: 1%;
-  background-color: yellow;
+    width: 100%;
+    height: 100%;
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-column-gap: 1%;
+    grid-row-gap: 1%;
+    background-color: yellow;
 }
 
 .fotosModelos ul li {
-  height: 90%;
+    height: 90%;
 }
 
 .fotosModelos li img {
-  width: 100%;
-  border-radius: 2rem;
+    width: 100%;
+    border-radius: 2rem;
 }
 
 .submenuMarcas {
-  list-style-type: none;
-  display: none;
+    list-style-type: none;
+    display: none;
 }
 
+*/
 /*---------------------------------------------Estilos para Accesorios*/
 .accesoriosSection {
   display: inline-block;
