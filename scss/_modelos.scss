@@ -2,15 +2,24 @@
 
 .solapas__modelos{
     height: 4rem;
+    margin: 1rem 0;
+    padding: 0 2rem;
     li a {
         font-size: 2rem;
         color: white;
+    }
+    .nav-link {  
+    background-color: white;
+    color: black;
+    }
+    .nav-link:hover {
+    background-color: rgb(124, 0, 0);
     }
 }
  
 .galeria__modelos {
     width: 90%;
-    margin: 2rem auto 1rem auto;
+    margin: 2rem auto 2rem auto;
     padding: 0 0 1rem 0;
     background-color: rgba(255, 0, 0, 0.3);
     H4 {
@@ -24,7 +33,7 @@
 
 .cards__modelos {
     width: 22rem;
-    margin: 0 auto;
+    margin: 1rem auto;
     div div h5 {
         font-size: 2rem;
         padding: 0.3rem;

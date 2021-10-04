@@ -387,6 +387,8 @@ footer h5 {
 /* -----------------------Estilos para Modelos */
 .solapas__modelos {
   height: 4rem;
+  margin: 1rem 0;
+  padding: 0 2rem;
 }
 
 .solapas__modelos li a {
@@ -394,9 +396,18 @@ footer h5 {
   color: white;
 }
 
+.solapas__modelos .nav-link {
+  background-color: white;
+  color: black;
+}
+
+.solapas__modelos .nav-link:hover {
+  background-color: #7c0000;
+}
+
 .galeria__modelos {
   width: 90%;
-  margin: 2rem auto 1rem auto;
+  margin: 2rem auto 2rem auto;
   padding: 0 0 1rem 0;
   background-color: rgba(255, 0, 0, 0.3);
 }
@@ -411,7 +422,7 @@ footer h5 {
 
 .cards__modelos {
   width: 22rem;
-  margin: 0 auto;
+  margin: 1rem auto;
 }
 
 .cards__modelos div div h5 {
