@@ -389,6 +389,9 @@ footer h5 {
   height: 4rem;
   margin: 1rem 0;
   padding: 0 2rem;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
 }
 
 .solapas__modelos li a {
