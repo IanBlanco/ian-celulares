@@ -1,3 +1,13 @@
+.index__carrusel {
+    height: 800px;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.carrusel__imagenes img {
+    height: 100%;
+    width: 100%;
+}
 .carrusel__texto {
     background-color: yellow;
     color: violet;
@@ -10,7 +20,7 @@ p {
 }
 }
 /* ----------------------------------------------------Estilos para seccion primaria*/
-.seccionPrimaria {
+.seccionMarcas {
     margin: 1rem;
     h2 {
         padding: 0 2rem;

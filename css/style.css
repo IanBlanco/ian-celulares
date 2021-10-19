@@ -273,6 +273,17 @@ footer h5 {
   background-color: #fc6666;
 }
 
+.index__carrusel {
+  height: 800px;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.carrusel__imagenes img {
+  height: 100%;
+  width: 100%;
+}
+
 .carrusel__texto {
   background-color: yellow;
   color: violet;
@@ -288,15 +299,15 @@ footer h5 {
 }
 
 /* ----------------------------------------------------Estilos para seccion primaria*/
-.seccionPrimaria {
+.seccionMarcas {
   margin: 1rem;
 }
 
-.seccionPrimaria h2 {
+.seccionMarcas h2 {
   padding: 0 2rem;
 }
 
-.seccionPrimaria ul {
+.seccionMarcas ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -313,7 +324,7 @@ footer h5 {
   margin: 1rem 0 2rem 0;
 }
 
-.seccionPrimaria ul li {
+.seccionMarcas ul li {
   display: inline-block;
 }
 
