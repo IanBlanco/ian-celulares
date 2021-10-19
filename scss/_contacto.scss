@@ -18,14 +18,22 @@
 
 .contacto__formulario h4 {
     font-size: 2.5rem;
-    padding: 0.5rem;
-    background-color: rgba(0, 0, 5, 0.7);
+    background-color: rgb(0, 0, 5);
+    padding: 0.3rem;
     width: 50%;
     text-align: center;
 }
 
 .contacto__formulario fieldset {
     width: 100%;
+}
+
+.contacto__edad input {
+    width: 6rem;
+}
+
+.contacto__email input {
+    width: 35rem;
 }
 
 fieldset textarea {
@@ -38,7 +46,25 @@ fieldset legend {
 }
 
 form {
-    background-color: rgba(0, 0, 5, 0.5);
+    background-color:#c793ac;
     width: 50%;
     padding: 1% 2.5% 1% 2.5%;
+}
+
+form .contacto__botones {
+    text-align: right;
+}
+
+form .contacto__botones input{
+    width: 7rem;
+    background-color: rgb(216, 216, 216);
+    margin: 0 1rem;
+}
+
+form .contacto__botones input:hover{
+    background-color: rgb(252, 102, 102);
+}
+
+.boton__enviar {
+    font-weight: 600;
 }

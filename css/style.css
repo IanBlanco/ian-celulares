@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Kanit:wght@300;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:wght@100;400&display=swap");
 /*Fuentes importadas*/
 * {
   margin: 0;
@@ -10,10 +11,11 @@
 /*Resetea valores por defecto*/
 html,
 body {
-  background-image: url(../imagenes/Fondos/fondoNegro.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  font-family: 'Kanit', sans-serif;
+  /* background-image: url(../imagenes/Fondos/fondoNegro.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;*/
+  background-color: #d1d1d1;
+  font-family: 'Urbanist', sans-serif;
   font-size: 62.5%;
 }
 
@@ -29,6 +31,7 @@ header {
 
 .header__nav {
   background-image: url(../imagenes/Fondos/fondoBlanco.jpg);
+  border-bottom: solid black 0.02em;
 }
 
 .header__logo {
@@ -42,9 +45,10 @@ header {
 
 .nav-item a {
   background-color: rgba(0, 0, 0, 0.1);
-  width: 16rem;
+  width: 17rem;
   margin: 0.5rem;
   text-align: center;
+  font-weight: 600;
 }
 
 .nav-item a:hover {
@@ -54,7 +58,7 @@ header {
 /*-------------------------------------- Estilos para titulos*/
 h1 {
   text-align: right;
-  font-style: italic;
+  font-style: normal;
   font-weight: 600;
   font-size: 5rem;
   letter-spacing: 0.5rem;
@@ -79,9 +83,10 @@ h2 {
 .envios__titulo {
   color: white;
   font-size: 2rem;
+  font-weight: 500;
   text-align: right;
   font-size: 3rem;
-  font-style: italic;
+  font-style: normal;
   padding: 0 5rem;
   background-color: black;
   margin: 0;
@@ -93,7 +98,7 @@ h3 {
   text-align: right;
   font-style: italic;
   padding: 0 5rem;
-  background-color: rgba(255, 0, 0, 0.507);
+  background-color: #c793ac;
 }
 
 h4 {
@@ -108,6 +113,7 @@ h4 {
   text-align: center;
   background-color: black;
   font-style: normal;
+  padding: 0.3rem;
 }
 
 h5 {
@@ -124,15 +130,18 @@ h6 {
 
 /*-----------------------------------------------------------Estilos para footer*/
 footer {
+  /* background-image: url(../imagenes/Fondos/fondoBlanco.jpg);*/
+  background-color: rgba(0, 0, 0, 0.5);
   display: inline-block;
   width: 100%;
   margin: 0;
-  background-color: rgba(255, 255, 255, 0.1);
   border-top: solid black 0.1rem;
 }
 
 footer h5 {
   font-size: 2rem;
+  color: white;
+  font-weight: 600;
 }
 
 .footer__logo {
@@ -264,85 +273,18 @@ footer h5 {
   background-color: #fc6666;
 }
 
-/*-------redes sociales-----*/
-.contenedor__redes {
-  display: inline-block;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
+.carrusel__texto {
+  background-color: yellow;
+  color: violet;
 }
 
-.instagram-icono {
-  background-color: white;
-  background-image: url("../imagenes/instagram.png");
-  margin: 1rem;
-  width: 24px;
-  height: 24px;
-  border-radius: 1rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+.carrusel__texto h5 {
+  font-size: 3rem;
+  padding: 0.5rem;
 }
 
-.facebook-icono {
-  background-color: white;
-  background-image: url("../imagenes/facebook.png");
-  margin: 1rem;
-  width: 24px;
-  height: 24px;
-  border-radius: 1rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.whatsapp-icono {
-  background-color: white;
-  background-image: url("../imagenes/whatsapp.png");
-  margin: 1rem;
-  width: 24px;
-  height: 24px;
-  border-radius: 1rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+.carrusel__texto p {
+  font-size: 2rem;
 }
 
 /* ----------------------------------------------------Estilos para seccion primaria*/
@@ -386,12 +328,17 @@ footer h5 {
 
 /* -----------------------Estilos para Modelos */
 .solapas__modelos {
-  height: 4rem;
-  margin: 1rem 0;
-  padding: 0 2rem;
+  padding: 0.5rem 1.5rem;
   position: -webkit-sticky;
   position: sticky;
-  top: 0;
+  top: 8rem;
+  z-index: 1;
+  background-color: #c793ac;
+  border: none;
+  border-bottom-right-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+  height: 6rem;
+  width: 63rem;
 }
 
 .solapas__modelos li a {
@@ -400,25 +347,28 @@ footer h5 {
 }
 
 .solapas__modelos .nav-link {
-  background-color: white;
+  background-color: #e6e6e6;
   color: black;
+  border-radius: 0.5rem;
+  width: 11rem;
 }
 
 .solapas__modelos .nav-link:hover {
-  background-color: #7c0000;
+  background-color: #fc6666;
+  border: none;
 }
 
 .galeria__modelos {
   width: 90%;
   margin: 2rem auto 2rem auto;
   padding: 0 0 1rem 0;
-  background-color: rgba(255, 0, 0, 0.3);
+  background-color: #c793ac;
 }
 
 .galeria__modelos H4 {
   font-size: 2.5rem;
   margin: 0 0 2rem 0;
-  padding: 0 1.5rem;
+  padding: 0.5rem 1.5rem;
   width: 100%;
   background-color: black;
 }
@@ -443,156 +393,70 @@ footer h5 {
   background-color: black;
 }
 
-/*---------------------------------------------Estilos para Accesorios*/
-.accesoriosSection {
-  display: inline-block;
-  height: 100vh;
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+.solapas__accesorios {
+  padding: 0.5rem 1.5rem;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 8rem;
+  z-index: 1;
+  background-color: #c793ac;
+  border: none;
+  border-bottom-right-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+  height: 6rem;
+  width: 48rem;
 }
 
-.filtroAccesorios {
-  width: 30%;
-  background-color: rgba(0, 0, 0, 0.5);
-  margin: 2rem;
-}
-
-.filtroAccesorios ul {
-  color: white;
-  width: 100%;
+.solapas__accesorios li a {
   font-size: 2rem;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+  color: white;
 }
 
-.filtroAccesorios__izquierda {
-  text-align: left;
-  padding: 1rem 2rem;
-  background-color: rgba(0, 0, 5, 0.7);
+.solapas__accesorios .nav-link {
+  background-color: #e6e6e6;
+  color: black;
+  border-radius: 0.5rem;
+  width: 14rem;
 }
 
-.filtroAccesorios__derecha {
-  height: 4rem;
+.solapas__accesorios .nav-link:hover {
+  background-color: #fc6666;
+  border: none;
+}
+
+.galeria__accesorios {
+  width: 90%;
+  margin: 2rem auto 2rem auto;
+  padding: 0 0 1rem 0;
+  background-color: #c793ac;
+}
+
+.galeria__accesorios H4 {
+  font-size: 2.5rem;
+  margin: 0 0 2rem 0;
+  padding: 0.5rem 1.5rem;
+  width: 100%;
+  background-color: black;
+}
+
+.cards__accesorios {
+  width: 22rem;
+  margin: 1rem auto;
+}
+
+.cards__accesorios div div h5 {
+  font-size: 2rem;
+  padding: 0.3rem;
   text-align: right;
-  list-style-type: none;
-  margin: 0 2rem;
 }
 
-.fotoAccesorios {
-  width: 60%;
-  height: 95vh;
-  border: 0.2rem solid black;
-  margin: 1.5rem;
-  padding: 1.5rem;
-  background-color: rgba(0, 0, 0, 0.5);
+.cards__accesorios div div p {
+  font-size: 1.5rem;
+  color: white;
 }
 
-.fotoAccesorios ul {
-  width: 100%;
-  height: 100%;
-  list-style-type: none;
-  display: -ms-grid;
-  display: grid;
-      grid-template-areas: "uno dos tres tres" "cinco cinco siete ocho" "cinco cinco once doce" "trece catorce veinte veinte" "diecisiete dieciocho veinte veinte";
-  -ms-grid-rows: 20% 18% 18% 18% 18%;
-      grid-template-rows: 20% 18% 18% 18% 18%;
-  -ms-grid-columns: 25% 24% 25% 20%;
-      grid-template-columns: 25% 24% 25% 20%;
-  grid-row-gap: 2%;
-  grid-column-gap: 2%;
-}
-
-.fotoAccesorios ul li img {
-  height: 100%;
-  width: 100%;
-  opacity: 0.8;
-}
-
-.fotoAccesorios ul li img:hover {
-  opacity: 1;
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
-}
-
-.auriculares__dos {
-  -ms-grid-row: 1;
-  -ms-grid-column: 1;
-  grid-area: uno;
-}
-
-.auriculares__tres {
-  -ms-grid-row: 1;
-  -ms-grid-column: 2;
-  grid-area: dos;
-}
-
-.cargador__uno {
-  -ms-grid-row: 1;
-  -ms-grid-column: 3;
-  -ms-grid-column-span: 2;
-  grid-area: tres;
-}
-
-.parlante__uno {
-  -ms-grid-row: 2;
-  -ms-grid-row-span: 2;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 2;
-  grid-area: cinco;
-}
-
-.cargadorIphone__uno {
-  -ms-grid-row: 5;
-  -ms-grid-column: 2;
-  grid-area: dieciocho;
-}
-
-.cargador__dos {
-  -ms-grid-row: 2;
-  -ms-grid-column: 4;
-  grid-area: ocho;
-}
-
-.cargadorMotorola__uno {
-  -ms-grid-row: 4;
-  -ms-grid-column: 2;
-  grid-area: catorce;
-}
-
-.headset__uno {
-  -ms-grid-row: 5;
-  -ms-grid-column: 1;
-  grid-area: diecisiete;
-}
-
-.cargadorMotorola__dos {
-  -ms-grid-row: 4;
-  -ms-grid-row-span: 2;
-  -ms-grid-column: 3;
-  -ms-grid-column-span: 2;
-  grid-area: veinte;
-}
-
-.fotoAccesorios ul li {
-  height: 100%;
-}
-
-.fotoAccesorios li img {
-  width: 100%;
-  border-radius: 2rem;
+.cards__accesorios div .card-body {
+  background-color: black;
 }
 
 /*-------------------------------------------------Estilos seccion envios*/
@@ -620,15 +484,15 @@ footer h5 {
 
 .envios__seccion div {
   width: 68%;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: #c793ac;
 }
 
 .envios__seccion div h5 {
   font-size: 2.5rem;
-  padding: 0.5rem;
   font-style: normal;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: black;
   text-align: center;
+  margin: 0;
 }
 
 .envios__seccion ul li {
@@ -674,7 +538,7 @@ footer h5 {
       -ms-flex-align: center;
           align-items: center;
   border: 0.1rem solid white;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.733);
 }
 
 .envios__zona li img {
@@ -687,6 +551,16 @@ footer h5 {
 .parrafoPie p {
   text-align: right;
   margin: 0rem 2rem;
+}
+
+.parrafoPie p a {
+  text-decoration: none;
+  color: white;
+  padding: 0.2rem 0.4rem;
+}
+
+.parrafoPie p a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 /* ------------------------------------------Estilos para formulario*/
@@ -717,14 +591,22 @@ footer h5 {
 
 .contacto__formulario h4 {
   font-size: 2.5rem;
-  padding: 0.5rem;
-  background-color: rgba(0, 0, 5, 0.7);
+  background-color: #000005;
+  padding: 0.3rem;
   width: 50%;
   text-align: center;
 }
 
 .contacto__formulario fieldset {
   width: 100%;
+}
+
+.contacto__edad input {
+  width: 6rem;
+}
+
+.contacto__email input {
+  width: 35rem;
 }
 
 fieldset textarea {
@@ -737,9 +619,27 @@ fieldset legend {
 }
 
 form {
-  background-color: rgba(0, 0, 5, 0.5);
+  background-color: #c793ac;
   width: 50%;
   padding: 1% 2.5% 1% 2.5%;
+}
+
+form .contacto__botones {
+  text-align: right;
+}
+
+form .contacto__botones input {
+  width: 7rem;
+  background-color: #d8d8d8;
+  margin: 0 1rem;
+}
+
+form .contacto__botones input:hover {
+  background-color: #fc6666;
+}
+
+.boton__enviar {
+  font-weight: 600;
 }
 
 /* ------------------------------------------- MEDIA QUARIE------*/

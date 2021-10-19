@@ -13,15 +13,16 @@
     align-items: center;
     margin: 0 0 2rem 0;
     div {
-    width: 68%;
-    background-color: rgba(0, 0, 0, 0.5);
+    width: 68%;    
+    background-color:#c793ac;
+
     }
     div h5 {
         font-size: 2.5rem;
-        padding: 0.5rem;
         font-style: normal;
-        background-color: rgba(0, 0, 0, 0.7);
+        background-color: rgb(0, 0, 0);
         text-align: center;
+        margin: 0;
     }
     ul li {
         list-style-type: none;
@@ -48,7 +49,7 @@
         justify-content: center;
         align-items: center;
         border: 0.1rem solid white;
-        background-color: rgba(0, 0, 0, 0.4);
+        background-color: rgba(0, 0, 0, 0.733);
     }
     li img {
         height: 80%;
@@ -61,4 +62,12 @@
 .parrafoPie p {
     text-align: right;
     margin: 0rem 2rem;
+    a {
+        text-decoration: none;
+        color: white;
+        padding: 0.2rem 0.4rem;
+    }
+    a:hover {
+        background-color: rgba(255, 255, 255, 0.2);
+    }
 }

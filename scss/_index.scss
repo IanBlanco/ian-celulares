@@ -1,25 +1,13 @@
-/*-------redes sociales-----*/
-.contenedor__redes {
-    display: inline-block;
-    display: flex;
-    flex-direction: row;
-    justify-content: end;
+.carrusel__texto {
+    background-color: yellow;
+    color: violet;
+h5{
+    font-size: 3rem;
+    padding: 0.5rem;
 }
-
-
-@each $redes in instagram, facebook, whatsapp {
-.#{$redes}-icono {
-    background-color: white;
-    background-image: url("../imagenes/#{$redes}.png");
-    margin: 1rem;
-    width: 24px;
-    height: 24px;
-    border-radius: 1rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}    
+p {
+    font-size: 2rem;
+}
 }
 /* ----------------------------------------------------Estilos para seccion primaria*/
 .seccionPrimaria {

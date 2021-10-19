@@ -8,10 +8,11 @@
 
 html,
 body {
-    background-image: url(../imagenes/Fondos/fondoNegro.jpg);
+    /* background-image: url(../imagenes/Fondos/fondoNegro.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
-    font-family: 'Kanit', sans-serif;
+    background-size: cover;*/
+    background-color: rgb(209, 209, 209);
+    font-family: 'Urbanist', sans-serif;
     font-size: 62.5%;
 }
 
@@ -28,6 +29,7 @@ header {
 
 .header__nav {
     background-image: url(../imagenes/Fondos/fondoBlanco.jpg);
+    border-bottom: solid black 0.02em;
     
 }
 .header__logo {
@@ -40,9 +42,10 @@ header {
 
 .nav-item a {
     background-color: rgba(0, 0, 0, 0.1);
-    width: 16rem;
+    width: 17rem;
     margin: 0.5rem;
     text-align: center;
+    font-weight: 600;
 }
 
 
@@ -55,7 +58,7 @@ $color: white;
 
 h1 {
     text-align: right;
-    font-style: italic;
+    font-style: normal;
     font-weight: 600;
     font-size: 5rem;
     letter-spacing: 0.5rem;
@@ -80,9 +83,10 @@ h2 {
 .envios__titulo{
     color: $color;
     font-size: 2rem;
+    font-weight: 500;
     text-align: right;
     font-size: 3rem;
-    font-style: italic;
+    font-style: normal;
     padding: 0 5rem;
     background-color: black;
     margin: 0;
@@ -95,7 +99,7 @@ h3 {
     text-align: right;
     font-style: italic;
     padding: 0 5rem;
-    background-color: rgba(255, 0, 0, 0.507);
+    background-color:#c793ac;
 }
 
 h4 {
@@ -109,6 +113,7 @@ h4 {
     text-align: center;
     background-color: black;
     font-style: normal;
+    padding: 0.3rem;
 }
 
 h5 {
@@ -126,13 +131,16 @@ h6 {
 /*-----------------------------------------------------------Estilos para footer*/
 
 footer {
+    /* background-image: url(../imagenes/Fondos/fondoBlanco.jpg);*/
+    background-color: rgba(0, 0, 0, 0.5);
     display: inline-block;
     width: 100%;
     margin: 0;
-    background-color: rgba(255, 255, 255, 0.1);
     border-top: solid black 0.1rem;
     h5 {
         font-size: 2rem;
+        color: white;
+        font-weight: 600;
     }
 }
 
@@ -145,13 +153,13 @@ footer {
 }
 
 .footer__secciones {
-    color: white;
+    color: rgb(255, 255, 255);
     li {
         margin: 3rem 0;
     }
     li a {
         text-decoration: none;
-        color: white;
+        color: rgb(255, 255, 255);
         font-size: 2rem;
         background-color: rgba(0, 0, 0, 0.5);
         padding: 0.5rem 1rem;
@@ -197,7 +205,7 @@ footer {
 }
 
 .footer__encontranos li p{
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 1.5rem;
 }
 

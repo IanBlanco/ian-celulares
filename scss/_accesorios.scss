@@ -1,119 +1,56 @@
-/*---------------------------------------------Estilos para Accesorios*/
-.accesoriosSection {
-    display: inline-block;
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: center;
+.solapas__accesorios{
+    padding: 0.5rem 1.5rem;
+    position: sticky;
+    top: 8rem;
+    z-index: 1;
+    background-color:#c793ac;
+    border: none;
+    border-bottom-right-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    height: 6rem;
+    width: 48rem;
+    li a {
+        font-size: 2rem;
+        color: white;
+    }
+    .nav-link {  
+    background-color: rgb(230, 230, 230);
+    color: black;
+    border-radius: 0.5rem;
+    width: 14rem;
+    }
+    .nav-link:hover {
+    background-color:  rgb(252, 102, 102);
+    border: none;
+    }
 }
 
-.filtroAccesorios {
-    width: 30%;
-    background-color: rgba(0, 0, 0, 0.5);
-    margin: 2rem;
+.galeria__accesorios {
+    width: 90%;
+    margin: 2rem auto 2rem auto;
+    padding: 0 0 1rem 0;
+    background-color: #c793ac;
+    H4 {
+        font-size: 2.5rem;
+        margin: 0 0 2rem 0;
+        padding: 0.5rem 1.5rem;
+        width: 100%;
+        background-color: black;
+    }
 }
-
-.filtroAccesorios ul {
-    color: white;
-    width: 100%;
-    font-size: 2rem;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-.filtroAccesorios__izquierda {
-    text-align: left;
-    padding: 1rem 2rem;
-    background-color: rgba(0, 0, 5, 0.7);
-}
-
-.filtroAccesorios__derecha {
-    height: 4rem;
-    text-align: right;
-    list-style-type: none;
-    margin: 0 2rem;
-}
-
-.fotoAccesorios {
-    width: 60%;
-    height: 95vh;
-    border: 0.2rem solid black;
-    margin: 1.5rem;
-    padding: 1.5rem;
-    background-color: rgba(0, 0, 0, 0.5);
-}
-
-.fotoAccesorios ul {
-    width: 100%;
-    height: 100%;
-    list-style-type: none;
-    display: grid;
-    grid-template-areas: "uno dos tres tres"
-                        "cinco cinco siete ocho"
-                        "cinco cinco once doce"
-                        "trece catorce veinte veinte"
-                        "diecisiete dieciocho veinte veinte";
-    grid-template-rows: 20% 18% 18% 18% 18%;
-    grid-template-columns: 25% 24% 25% 20%;
-    grid-row-gap: 2%;
-    grid-column-gap: 2%;
-}
-
-.fotoAccesorios ul li img {
-    height: 100%;
-    width: 100%;
-    opacity: 0.8;
-}
-
-.fotoAccesorios ul li img:hover {
-    opacity: 1;
-    transition: all 0.5s;
-}
-
-.auriculares__dos {
-    grid-area: uno;
-}
-
-.auriculares__tres {
-    grid-area: dos;
-}
-
-.cargador__uno {
-    grid-area: tres;
-}
-
-.parlante__uno {
-    grid-area: cinco;
-}
-
-.cargadorIphone__uno {
-    grid-area: dieciocho;
-}
-
-.cargador__dos {
-    grid-area: ocho;
-}
-
-.cargadorMotorola__uno {
-    grid-area: catorce;
-}
-
-.headset__uno {
-    grid-area: diecisiete;
-}
-
-.cargadorMotorola__dos {
-    grid-area: veinte;
-}
-
-.fotoAccesorios ul li {
-    height: 100%;
-}
-
-.fotoAccesorios li img {
-    width: 100%;
-    border-radius: 2rem;
+.cards__accesorios {
+    width: 22rem;
+    margin: 1rem auto;
+    div div h5 {
+        font-size: 2rem;
+        padding: 0.3rem;
+        text-align: right;
+    }
+    div div p {
+        font-size: 1.5rem;
+        color: white;
+    }
+    div .card-body {
+        background-color: black;
+    }
 }
