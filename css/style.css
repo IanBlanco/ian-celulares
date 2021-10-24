@@ -11,10 +11,10 @@
 /*Resetea valores por defecto*/
 html,
 body {
-  /* background-image: url(../imagenes/Fondos/fondoNegro.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;*/
-  background-color: #d1d1d1;
+  background-image: url(../imagenes/Fondos/fondo__blanco2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*background-color: rgb(209, 209, 209);*/
   font-family: 'Urbanist', sans-serif;
   font-size: 62.5%;
 }
