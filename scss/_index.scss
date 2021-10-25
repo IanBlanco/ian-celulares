@@ -8,22 +8,137 @@
     height: 100%;
     width: 100%;
 }
-.carrusel__texto {
-    background-color: yellow;
-    color: violet;
+.carrusel__texto-accesorios {
+    color: white;
 h5{
-    font-size: 3rem;
+    font-size: 6rem;
     padding: 0.5rem;
+    margin: 1rem auto 5rem auto;
+    width: 50rem;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.404);
+    position: relative;
+    top: -15rem; left: 0;
+    a {
+        text-decoration: none;
+        color: white;
+        font-weight: 800;
+    }
 }
+
 p {
-    font-size: 2rem;
+    font-size: 4rem;
+    width: 60rem;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.404);
+    position: relative;
+    top: -15rem; left: 0;
+}
+.nuevo__modelo{
+    background-color: rgba(255, 0, 0, 0.479);
+    width: 46rem;
+    height: 12rem;
+    margin: 4rem auto 0 auto;
 }
 }
+
+.carrusel__texto-iphone {
+    color: white;
+h5{
+    font-size: 6rem;
+    padding: 0.5rem;
+    margin: 1rem auto 5rem auto;
+    width: 50rem;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.404);
+    position: relative;
+    top: -10rem; left: 0;
+    a {
+        text-decoration: none;
+        color: white;
+        font-weight: 800;
+    }
+}
+
+p {
+    font-size: 4rem;
+    width: 60rem;
+    margin: 2rem auto 0 auto;
+    padding: 0 1rem;
+    background-color: rgba(0, 0, 0, 0.65);
+    position: relative;
+    top: -10rem; left: 0;
+    
+}
+ul { 
+    background-color: rgba(0, 0, 0, 0.404);
+    width: 60rem;
+    margin: 0 auto;
+    padding: 0 0 0 5rem;
+    position: relative;
+    top: -10rem; left: 0;
+  li {
+    font-size: 3rem;
+    list-style-type: none;
+    text-align: left;
+}  
+}
+}
+
+.carrusel__texto-xiaomi {
+    color: white;
+h5{
+    font-size: 6rem;
+    padding: 0.5rem;
+    margin: 1rem auto 5rem auto;
+    width: 50rem;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.75);
+    position: relative;
+    top: -10rem; left: 0;
+    a {
+        text-decoration: none;
+        color: white;
+        font-weight: 800;
+    }
+}
+
+p {
+    font-size: 4rem;
+    width: 60rem;
+    margin: 2rem auto 0 auto;
+    padding: 0 1rem;
+    background-color: rgba(0, 0, 0, 0.85);
+    position: relative;
+    top: -10rem; left: 0;
+    a {
+    text-decoration: none;
+    color: white;
+    }
+}
+ul { 
+    background-color: rgba(0, 0, 0, 0.704);
+    width: 60rem;
+    margin: 0 auto;
+    padding: 0 0 0 5rem;
+    position: relative;
+    top: -10rem; left: 0;
+  li {
+    font-size: 3rem;
+    list-style-type: none;
+    text-align: left;
+}  
+}
+}
+
 /* ----------------------------------------------------Estilos para seccion primaria*/
 .seccionMarcas {
-    margin: 1rem;
+    margin: 1rem 0;
+    background-color: rgba(0, 0, 0, 0.15);
+    padding: 0.5rem 0;
     h2 {
         padding: 0 2rem;
+        color: white;
     }
     ul {
         display: flex;

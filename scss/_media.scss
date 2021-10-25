@@ -1,19 +1,189 @@
-/* ------------------------------------------- MEDIA QUARIE------*/
 
-
-@media (max-width: 768px) {  /*---------ipad------------*/
+@media (max-width: 768px) {  /*---------ipad 768x1024------------*/
  
-    .seccionPrimaria ul li {
-        display: inline-block;
-        margin: 2%;
+    .index__carrusel {
+        width: 760px;
+        height: 505px;
+        margin: 1rem auto;
     }
 
-    .seccionPrimaria ul {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        align-items: center;
-        flex-wrap: wrap;
+    .seccionMarcas {
+        width: 768px;
+        ul {
+            width: 766px;}
+            padding: 0.2rem ;
+            li {
+                padding: 0;
+            }
+        li img {
+            width: 7.5rem;
+            height: 7.5rem;
+            margin: 0 5px;
+    }
+    }
+    .carrusel__texto-accesorios {
+        color: white;
+    h5{
+        font-size: 3rem;
+        padding: 0.5rem;
+        margin: 1rem auto 5rem auto;
+        width: 30rem;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.404);
+        position: relative;
+        top: -8rem; left: 0;
+        a {
+            text-decoration: none;
+            color: white;
+            font-weight: 800;
+        }
+    }
+    
+    p {
+        font-size: 2.5rem;
+        width: 35rem;
+        margin: 0 auto;
+        background-color: rgba(0, 0, 0, 0.404);
+        position: relative;
+        top: -10rem; left: 0;
+    }
+    .nuevo__modelo{
+        background-color: rgba(255, 0, 0, 0.479);
+        width: 30rem;
+        height: 8rem;
+        margin: 4rem auto 0 auto;
+    }
+    }
+    
+    .carrusel__texto-iphone {
+        color: white;
+    h5{
+        font-size: 3rem;
+        padding: 0.5rem;
+        margin: 1rem auto 2rem auto;
+        width: 30rem;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.404);
+        position: relative;
+        top: -2rem; left: 0;
+        a {
+            text-decoration: none;
+            color: white;
+            font-weight: 800;
+        }
+    }
+    
+    p {
+        font-size: 3rem;
+        width: 50rem;
+        margin: 2rem auto 0 auto;
+        padding: 0 1rem;
+        background-color: rgba(0, 0, 0, 0.65);
+        position: relative;
+        top: -2rem; left: 0;
+        
+    }
+    ul { 
+        background-color: rgba(0, 0, 0, 0.404);
+        width: 50rem;
+        margin: 0 auto;
+        padding: 0 0 0 5rem;
+        position: relative;
+        top: -2rem; left: 0;
+      li {
+        font-size: 2rem;
+        list-style-type: none;
+        text-align: left;
+    }  
+    }
+    }
+    
+    .carrusel__texto-xiaomi {
+        color: white;
+    h5{
+        font-size: 4rem;
+        padding: 0.5rem;
+        margin: 1rem auto 2rem auto;
+        width: 50rem;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.75);
+        position: relative;
+        top: -3rem; left: 0;
+        a {
+            text-decoration: none;
+            color: white;
+            font-weight: 800;
+        }
+    }
+    
+    p {
+        font-size: 2rem;
+        width: 50rem;
+        margin: 2rem auto 0 auto;
+        padding: 0 1rem;
+        background-color: rgba(0, 0, 0, 0.85);
+        position: relative;
+        top: -3rem; left: 0;
+        a {
+        text-decoration: none;
+        color: white;
+        }
+    }
+    ul { 
+        background-color: rgba(0, 0, 0, 0.704);
+        width: 50rem;
+        margin: 0 auto;
+        padding: 0 0 0 5rem;
+        position: relative;
+        top: -3rem; left: 0;
+      li {
+        font-size: 2.5rem;
+        list-style-type: none;
+        text-align: left;
+    }  
+    }
+    }
+
+    
+.envios__seccion {
+    color: white;
+    font-size: 2rem;
+    div {
+    width: 80%;    
+    background-color: #6d597a;
+    }
+}
+
+.envios__zona {
+    height: 25vh;
+    width: 100%;
+    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    li {
+        width: 45%;
+        height: 90%;
+        margin: 0 6%;
+        background-color: rgba(0, 0, 0, 0.733);
+    }
+    li img {
+        margin: 0.5rem 0;
+    }
+}
+    
+.contacto__formulario h4 {
+    width: 80%;
+}
+form {
+    width: 80%;
+    padding: 1% 2.5% 1% 2.5%;
+}
+
+    footer {
+        height: 100rem;
     }
 }
 
@@ -22,24 +192,200 @@
 /*------------moto g4-------*/
 
 @media (max-width: 360px) { 
-
-    .seccionPrimaria ul li {
-        display: inline-block;
-        margin: 2%;
+    .index__carrusel {
+        width: 352px;
+        height: 230px;
+        margin: 1rem auto;
     }
 
-    .seccionPrimaria ul {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        align-items: center;
-        flex-wrap: wrap;
+    .seccionMarcas {
+        width: 360px;
+        h2 {
+            font-size: 2rem;
+        }
+        ul {
+            width: 352px;}
+            height: 25rem;
+            padding: 0.2rem ;
+     
+   
     }
-    .footer__logo {
-        width: 55%;
-    }
-    .footer__secciones-caja {
-        display: inline-block;
+    .imagenesSeccion {
+        height: 20rem;
         flex-wrap: wrap;
+        padding: 0;
+        margin: 0 auto;
+    }
+     .imagenesSeccion li img {
+        width: 6rem;
+        height: 6rem;
+        margin: 0rem 1rem;
+    }
+    .carrusel__texto-accesorios {
+        color: white;
+    h5{
+        font-size: 1rem;
+        padding: 0.2rem;
+        margin: 1rem auto 5rem auto;
+        width: 20rem;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.404);
+        position: relative;
+        top: -8rem; left: 0;
+        a {
+            text-decoration: none;
+            color: white;
+            font-weight: 800;
+        }
+    }
+    
+    p {
+        font-size: 1rem;
+        width: 25rem;
+        margin: 0 auto;
+        background-color: rgba(0, 0, 0, 0.404);
+        position: relative;
+        top: -10rem; left: 0;
+    }
+    .nuevo__modelo{
+        background-color: rgba(255, 0, 0, 0.479);
+        width: 30rem;
+        height: 4rem;
+        margin: 4rem auto 0 auto;
+    }
+    }
+    
+    .carrusel__texto-iphone {
+        color: white;
+    h5{
+        font-size: 3rem;
+        padding: 0.5rem;
+        margin: 1rem auto 2rem auto;
+        width: 30rem;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.404);
+        position: relative;
+        top: -2rem; left: 0;
+        a {
+            text-decoration: none;
+            color: white;
+            font-weight: 800;
+        }
+    }
+    
+    p {
+        font-size: 3rem;
+        width: 50rem;
+        margin: 2rem auto 0 auto;
+        padding: 0 1rem;
+        background-color: rgba(0, 0, 0, 0.65);
+        position: relative;
+        top: -2rem; left: 0;
+        
+    }
+    ul { 
+        background-color: rgba(0, 0, 0, 0.404);
+        width: 50rem;
+        margin: 0 auto;
+        padding: 0 0 0 5rem;
+        position: relative;
+        top: -2rem; left: 0;
+      li {
+        font-size: 2rem;
+        list-style-type: none;
+        text-align: left;
+    }  
+    }
+    }
+    
+    .carrusel__texto-xiaomi {
+        color: white;
+    h5{
+        font-size: 4rem;
+        padding: 0.5rem;
+        margin: 1rem auto 2rem auto;
+        width: 50rem;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.75);
+        position: relative;
+        top: -3rem; left: 0;
+        a {
+            text-decoration: none;
+            color: white;
+            font-weight: 800;
+        }
+    }
+    
+    p {
+        font-size: 2rem;
+        width: 50rem;
+        margin: 2rem auto 0 auto;
+        padding: 0 1rem;
+        background-color: rgba(0, 0, 0, 0.85);
+        position: relative;
+        top: -3rem; left: 0;
+        a {
+        text-decoration: none;
+        color: white;
+        }
+    }
+    ul { 
+        background-color: rgba(0, 0, 0, 0.704);
+        width: 50rem;
+        margin: 0 auto;
+        padding: 0 0 0 5rem;
+        position: relative;
+        top: -3rem; left: 0;
+      li {
+        font-size: 2.5rem;
+        list-style-type: none;
+        text-align: left;
+    }  
+    }
+    }
+
+    
+.envios__seccion {
+    color: white;
+    font-size: 2rem;
+    div {
+    width: 80%;    
+    background-color: #6d597a;
+    }
+}
+
+.envios__zona {
+    height: 25vh;
+    width: 100%;
+    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    li {
+        width: 45%;
+        height: 90%;
+        margin: 0 6%;
+        background-color: rgba(0, 0, 0, 0.733);
+    }
+    li img {
+        margin: 0.5rem 0;
+    }
+}
+    
+.contacto__formulario h4 {
+    width: 80%;
+}
+form {
+    width: 80%;
+    padding: 1% 2.5% 1% 2.5%;
+}
+
+    footer {
+        height: 100rem;
+        h5 {
+            display: none;
+        }
     }
 }
