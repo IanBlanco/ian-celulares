@@ -1141,27 +1141,13 @@ form .contacto__botones input:hover {
     background-color: #6d597a;
   }
   .envios__zona {
-    height: 25vh;
+    height: 60vh;
     width: 100%;
-    display: inline-block;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
     padding: 0;
   }
   .envios__zona li {
-    width: 45%;
-    height: 90%;
+    width: 100%;
+    height: 50%;
     margin: 0 6%;
     background-color: rgba(0, 0, 0, 0.733);
   }
@@ -1174,6 +1160,9 @@ form .contacto__botones input:hover {
   form {
     width: 80%;
     padding: 1% 2.5% 1% 2.5%;
+  }
+  form .contacto__email input {
+    width: 25rem;
   }
   footer {
     height: 100rem;
