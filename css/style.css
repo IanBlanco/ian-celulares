@@ -987,7 +987,8 @@ form .contacto__botones input:hover {
   }
   .seccionMarcas {
     width: 360px;
-    height: 25rem;
+    margin: 0;
+    height: 20rem;
     padding: 0.2rem;
   }
   .seccionMarcas h2 {
@@ -997,7 +998,7 @@ form .contacto__botones input:hover {
     width: 352px;
   }
   .imagenesSeccion {
-    height: 20rem;
+    height: 16rem;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     padding: 0;
@@ -1014,13 +1015,13 @@ form .contacto__botones input:hover {
   .carrusel__texto-accesorios h5 {
     font-size: 1rem;
     padding: 0.2rem;
-    margin: 1rem auto 5rem auto;
+    margin: 1rem auto 1rem auto;
     width: 20rem;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.404);
+    background-color: rgba(255, 0, 0, 0.404);
     position: relative;
-    top: -8rem;
-    left: 0;
+    top: -22px;
+    left: 5px;
   }
   .carrusel__texto-accesorios h5 a {
     text-decoration: none;
@@ -1033,14 +1034,16 @@ form .contacto__botones input:hover {
     margin: 0 auto;
     background-color: rgba(0, 0, 0, 0.404);
     position: relative;
-    top: -10rem;
+    top: -1rem;
     left: 0;
+    display: none;
   }
   .carrusel__texto-accesorios .nuevo__modelo {
     background-color: rgba(255, 0, 0, 0.479);
     width: 30rem;
     height: 4rem;
     margin: 4rem auto 0 auto;
+    display: none;
   }
   .carrusel__texto-iphone {
     color: white;
@@ -1132,6 +1135,32 @@ form .contacto__botones input:hover {
     list-style-type: none;
     text-align: left;
   }
+  .solapas__modelos {
+    height: 12rem;
+    width: 36rem;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 7.5rem;
+    border: black 0.1rem solid;
+    padding: 0.5rem 1rem;
+  }
+  .solapas__modelos .nav-link {
+    width: 10rem;
+  }
+  .solapas__accesorios {
+    height: 12rem;
+    width: 36rem;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 7.5rem;
+  }
+  .solapas__accesorios .nav-link {
+    width: 12rem;
+  }
   .envios__seccion {
     color: white;
     font-size: 2rem;
@@ -1141,18 +1170,21 @@ form .contacto__botones input:hover {
     background-color: #6d597a;
   }
   .envios__zona {
-    height: 60vh;
+    height: 55vh;
     width: 100%;
     padding: 0;
+    display: block;
   }
   .envios__zona li {
-    width: 100%;
-    height: 50%;
-    margin: 0 6%;
-    background-color: rgba(0, 0, 0, 0.733);
+    width: 85%;
+    height: 45%;
+    padding: 0 auto;
   }
   .envios__zona li img {
     margin: 0.5rem 0;
+  }
+  .envios__seccion ul li {
+    margin: 1rem 2rem;
   }
   .contacto__formulario h4 {
     width: 80%;
@@ -1165,10 +1197,21 @@ form .contacto__botones input:hover {
     width: 25rem;
   }
   footer {
-    height: 100rem;
+    height: 98rem;
+  }
+  footer .footer__logo {
+    width: 20rem;
+  }
+  footer .footer__secciones-caja {
+    width: 16rem;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
   footer h5 {
-    display: none;
+    height: 2rem;
+  }
+  footer .container {
+    height: 98rem;
   }
 }
 /*# sourceMappingURL=style.css.map */

@@ -200,18 +200,19 @@ form {
 
     .seccionMarcas {
         width: 360px;
+        margin: 0;
         h2 {
             font-size: 2rem;
         }
         ul {
             width: 352px;}
-            height: 25rem;
+            height: 20rem;
             padding: 0.2rem ;
      
    
     }
     .imagenesSeccion {
-        height: 20rem;
+        height: 16rem;
         flex-wrap: wrap;
         padding: 0;
         margin: 0 auto;
@@ -226,12 +227,13 @@ form {
     h5{
         font-size: 1rem;
         padding: 0.2rem;
-        margin: 1rem auto 5rem auto;
+        margin: 1rem auto 1rem auto;
         width: 20rem;
         text-align: center;
-        background-color: rgba(0, 0, 0, 0.404);
+        background-color: rgba(255, 0, 0, 0.404);
         position: relative;
-        top: -8rem; left: 0;
+        top: -22px; left: 5px;
+        
         a {
             text-decoration: none;
             color: white;
@@ -245,13 +247,15 @@ form {
         margin: 0 auto;
         background-color: rgba(0, 0, 0, 0.404);
         position: relative;
-        top: -10rem; left: 0;
+        top: -1rem; left: 0;
+        display: none;
     }
     .nuevo__modelo{
         background-color: rgba(255, 0, 0, 0.479);
         width: 30rem;
         height: 4rem;
         margin: 4rem auto 0 auto;
+        display: none;
     }
     }
     
@@ -344,6 +348,29 @@ form {
     }
     }
 
+    .solapas__modelos{
+        height: 12rem;
+        width: 36rem;
+        flex-wrap: wrap;
+        position: sticky;
+        top: 7.5rem;
+        border: black 0.1rem solid;
+        padding: 0.5rem 1rem;
+        .nav-link {
+            width: 10rem;
+            }
+    }
+
+    .solapas__accesorios{
+        height: 12rem;
+        width: 36rem;
+        flex-wrap: wrap;
+        position: sticky;
+        top: 7.5rem;
+        .nav-link {
+            width: 12rem;
+            }
+    }
     
 .envios__seccion {
     color: white;
@@ -355,20 +382,22 @@ form {
 }
 
 .envios__zona {
-    height: 60vh;
+    height: 55vh;
     width: 100%;
     padding: 0;
+    display: block;
     li {
-        width: 100%;
-        height: 50%;
-        margin: 0 6%;
-        background-color: rgba(0, 0, 0, 0.733);
+        width: 85%;
+        height: 45%;
+        padding: 0 auto;
     }
     li img {
         margin: 0.5rem 0;
     }
 }
-    
+.envios__seccion ul li {
+    margin: 1rem 2rem;
+}
 .contacto__formulario h4 {
     width: 80%;
 }
@@ -381,9 +410,19 @@ form {
 }
 
     footer {
-        height: 100rem;
+        height: 98rem;
+        .footer__logo{
+            width: 20rem;
+        }
+        .footer__secciones-caja {
+            width: 16rem;
+            flex-wrap: wrap;
+        }
         h5 {
-            display: none;
+            height: 2rem;
+        }
+        .container {
+            height: 98rem;
         }
     }
 }
