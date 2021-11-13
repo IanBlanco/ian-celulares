@@ -1,6 +1,10 @@
+@media (max-width: 768px) {
 
-@media (max-width: 768px) {  /*---------ipad 768x1024------------*/
- 
+    /*---------ipad 768x1024------------*/
+    header {
+        height: 12rem;
+    }
+
     .index__carrusel {
         width: 760px;
         height: 505px;
@@ -9,189 +13,535 @@
 
     .seccionMarcas {
         width: 768px;
+
         ul {
-            width: 766px;}
-            padding: 0.2rem ;
-            li {
-                padding: 0;
-            }
+            width: 766px;
+        }
+
+        padding: 0.2rem;
+
+        li {
+            padding: 0;
+        }
+
         li img {
             width: 7.5rem;
             height: 7.5rem;
             margin: 0 5px;
+        }
     }
-    }
+
     .carrusel__texto-accesorios {
         color: white;
-    h5{
-        font-size: 3rem;
-        padding: 0.5rem;
-        margin: 1rem auto 5rem auto;
-        width: 30rem;
-        text-align: center;
-        background-color: rgba(0, 0, 0, 0.404);
-        position: relative;
-        top: -8rem; left: 0;
-        a {
-            text-decoration: none;
-            color: white;
-            font-weight: 800;
+
+        h5 {
+            font-size: 3rem;
+            padding: 0.5rem;
+            margin: 1rem auto 5rem auto;
+            width: 30rem;
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.404);
+            position: relative;
+            top: -8rem;
+            left: 0;
+
+            a {
+                text-decoration: none;
+                color: white;
+                font-weight: 800;
+            }
+        }
+
+        p {
+            font-size: 2.5rem;
+            width: 35rem;
+            margin: 0 auto;
+            background-color: rgba(0, 0, 0, 0.404);
+            position: relative;
+            top: -10rem;
+            left: 0;
+        }
+
+        .nuevo__modelo {
+            background-color: rgba(255, 0, 0, 0.479);
+            width: 30rem;
+            height: 8rem;
+            margin: 4rem auto 0 auto;
         }
     }
-    
-    p {
-        font-size: 2.5rem;
-        width: 35rem;
-        margin: 0 auto;
-        background-color: rgba(0, 0, 0, 0.404);
-        position: relative;
-        top: -10rem; left: 0;
-    }
-    .nuevo__modelo{
-        background-color: rgba(255, 0, 0, 0.479);
-        width: 30rem;
-        height: 8rem;
-        margin: 4rem auto 0 auto;
-    }
-    }
-    
+
     .carrusel__texto-iphone {
         color: white;
-    h5{
-        font-size: 3rem;
-        padding: 0.5rem;
-        margin: 1rem auto 2rem auto;
-        width: 30rem;
-        text-align: center;
-        background-color: rgba(0, 0, 0, 0.404);
-        position: relative;
-        top: -2rem; left: 0;
-        a {
-            text-decoration: none;
-            color: white;
-            font-weight: 800;
+
+        h5 {
+            font-size: 3rem;
+            padding: 0.5rem;
+            margin: 1rem auto 2rem auto;
+            width: 30rem;
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.404);
+            position: relative;
+            top: -2rem;
+            left: 0;
+
+            a {
+                text-decoration: none;
+                color: white;
+                font-weight: 800;
+            }
+        }
+
+        p {
+            font-size: 3rem;
+            width: 50rem;
+            margin: 2rem auto 0 auto;
+            padding: 0 1rem;
+            background-color: rgba(0, 0, 0, 0.65);
+            position: relative;
+            top: -2rem;
+            left: 0;
+
+        }
+
+        ul {
+            background-color: rgba(0, 0, 0, 0.404);
+            width: 50rem;
+            margin: 0 auto;
+            padding: 0 0 0 5rem;
+            position: relative;
+            top: -2rem;
+            left: 0;
+
+            li {
+                font-size: 2rem;
+                list-style-type: none;
+                text-align: left;
+            }
         }
     }
-    
-    p {
-        font-size: 3rem;
-        width: 50rem;
-        margin: 2rem auto 0 auto;
-        padding: 0 1rem;
-        background-color: rgba(0, 0, 0, 0.65);
-        position: relative;
-        top: -2rem; left: 0;
-        
-    }
-    ul { 
-        background-color: rgba(0, 0, 0, 0.404);
-        width: 50rem;
-        margin: 0 auto;
-        padding: 0 0 0 5rem;
-        position: relative;
-        top: -2rem; left: 0;
-      li {
-        font-size: 2rem;
-        list-style-type: none;
-        text-align: left;
-    }  
-    }
-    }
-    
+
     .carrusel__texto-xiaomi {
         color: white;
-    h5{
-        font-size: 4rem;
-        padding: 0.5rem;
-        margin: 1rem auto 2rem auto;
-        width: 50rem;
-        text-align: center;
-        background-color: rgba(0, 0, 0, 0.75);
-        position: relative;
-        top: -3rem; left: 0;
-        a {
-            text-decoration: none;
-            color: white;
-            font-weight: 800;
+
+        h5 {
+            font-size: 4rem;
+            padding: 0.5rem;
+            margin: 1rem auto 2rem auto;
+            width: 50rem;
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.75);
+            position: relative;
+            top: -3rem;
+            left: 0;
+
+            a {
+                text-decoration: none;
+                color: white;
+                font-weight: 800;
+            }
+        }
+
+        p {
+            font-size: 2rem;
+            width: 50rem;
+            margin: 2rem auto 0 auto;
+            padding: 0 1rem;
+            background-color: rgba(0, 0, 0, 0.85);
+            position: relative;
+            top: -3rem;
+            left: 0;
+
+            a {
+                text-decoration: none;
+                color: white;
+            }
+        }
+
+        ul {
+            background-color: rgba(0, 0, 0, 0.704);
+            width: 50rem;
+            margin: 0 auto;
+            padding: 0 0 0 5rem;
+            position: relative;
+            top: -3rem;
+            left: 0;
+
+            li {
+                font-size: 2.5rem;
+                list-style-type: none;
+                text-align: left;
+            }
         }
     }
-    
-    p {
-        font-size: 2rem;
-        width: 50rem;
-        margin: 2rem auto 0 auto;
-        padding: 0 1rem;
-        background-color: rgba(0, 0, 0, 0.85);
-        position: relative;
-        top: -3rem; left: 0;
-        a {
-        text-decoration: none;
+
+    .solapas__modelos {
+        flex-wrap: wrap;
+        position: sticky;
+        top: 11.5rem;
+        border: black 0.1rem solid;
+        padding: 0.5rem 1rem;
+    }
+
+    .solapas__accesorios {
+        width: 49rem;
+        flex-wrap: wrap;
+        position: sticky;
+        top: 11.5rem;
+        border-bottom: solid 1px white;
+        border-right: solid 1px white;
+
+
+    }
+
+
+    .envios__seccion {
         color: white;
+        font-size: 2rem;
+
+        div {
+            width: 80%;
+            background-color: #6d597a;
         }
     }
-    ul { 
-        background-color: rgba(0, 0, 0, 0.704);
-        width: 50rem;
+
+    .envios__zona {
+        height: 25vh;
+        width: 100%;
+        display: inline-block;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+
+        li {
+            width: 45%;
+            height: 90%;
+            margin: 0 6%;
+            background-color: rgba(0, 0, 0, 0.733);
+        }
+
+        li img {
+            margin: 0.5rem 0;
+        }
+    }
+
+    .contacto__formulario h4 {
+        width: 80%;
+    }
+
+    form {
+        width: 80%;
+        padding: 1% 2.5% 1% 2.5%;
+
+        fieldset textarea {
+            height: 10rem;
+        }
+    }
+
+    footer {
+        height: 70rem;
+    }
+}
+
+
+
+
+/*------------Iphone 6-7-8------------------------------------------------------------*/
+
+@media (max-width: 414px) {
+    .index__carrusel {
+        width: 404px;
+        height: 270px;
+        margin: 1rem auto;
+    }
+
+    .seccionMarcas {
+        width: 414px;
+        margin: 0;
+
+        h2 {
+            font-size: 2rem;
+        }
+
+        ul {
+            width: 414px;
+        }
+
+        height: 20rem;
+        padding: 0.2rem;
+    }
+
+    .imagenesSeccion {
+        height: 16rem;
+        flex-wrap: wrap;
+        padding: 0;
         margin: 0 auto;
-        padding: 0 0 0 5rem;
-        position: relative;
-        top: -3rem; left: 0;
-      li {
-        font-size: 2.5rem;
-        list-style-type: none;
-        text-align: left;
-    }  
-    }
     }
 
-    
-.envios__seccion {
-    color: white;
-    font-size: 2rem;
-    div {
-    width: 80%;    
-    background-color: #6d597a;
+    .imagenesSeccion li {
+        margin: 5px;
     }
-}
 
-.envios__zona {
-    height: 25vh;
-    width: 100%;
-    display: inline-block;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 0;
-    li {
-        width: 45%;
-        height: 90%;
-        margin: 0 6%;
-        background-color: rgba(0, 0, 0, 0.733);
+    .imagenesSeccion li img {
+        width: 6rem;
+        height: 6rem;
+        margin: 0rem 1rem;
     }
-    li img {
-        margin: 0.5rem 0;
+
+    .carrusel__texto-accesorios {
+        color: white;
+
+        h5 {
+            font-size: 1rem;
+            padding: 0.2rem;
+            margin: 1rem auto 1rem auto;
+            width: 20rem;
+            text-align: center;
+            background-color: rgba(255, 0, 0, 0.404);
+            position: relative;
+            top: -22px;
+            left: 5px;
+
+            a {
+                text-decoration: none;
+                color: white;
+                font-weight: 800;
+            }
+        }
+
+        p {
+            font-size: 1rem;
+            width: 25rem;
+            margin: 0 auto;
+            background-color: rgba(0, 0, 0, 0.404);
+            position: relative;
+            top: -1rem;
+            left: 0;
+            display: none;
+        }
+
+        .nuevo__modelo {
+            background-color: rgba(255, 0, 0, 0.479);
+            width: 30rem;
+            height: 4rem;
+            margin: 4rem auto 0 auto;
+            display: none;
+        }
     }
-}
-    
-.contacto__formulario h4 {
-    width: 80%;
-}
-form {
-    width: 80%;
-    padding: 1% 2.5% 1% 2.5%;
-}
+
+    .carrusel__texto-iphone {
+        color: white;
+
+        h5 {
+            font-size: 3rem;
+            padding: 0.5rem;
+            margin: 1rem auto 2rem auto;
+            width: 30rem;
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.404);
+            position: relative;
+            top: -2rem;
+            left: 0;
+
+            a {
+                text-decoration: none;
+                color: white;
+                font-weight: 800;
+            }
+        }
+
+        p {
+            font-size: 3rem;
+            width: 50rem;
+            margin: 2rem auto 0 auto;
+            padding: 0 1rem;
+            background-color: rgba(0, 0, 0, 0.65);
+            position: relative;
+            top: -2rem;
+            left: 0;
+
+        }
+
+        ul {
+            background-color: rgba(0, 0, 0, 0.404);
+            width: 50rem;
+            margin: 0 auto;
+            padding: 0 0 0 5rem;
+            position: relative;
+            top: -2rem;
+            left: 0;
+
+            li {
+                font-size: 2rem;
+                list-style-type: none;
+                text-align: left;
+            }
+        }
+    }
+
+    .carrusel__texto-xiaomi {
+        color: white;
+
+        h5 {
+            font-size: 4rem;
+            padding: 0.5rem;
+            margin: 1rem auto 2rem auto;
+            width: 50rem;
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.75);
+            position: relative;
+            top: -3rem;
+            left: 0;
+
+            a {
+                text-decoration: none;
+                color: white;
+                font-weight: 800;
+            }
+        }
+
+        p {
+            font-size: 2rem;
+            width: 50rem;
+            margin: 2rem auto 0 auto;
+            padding: 0 1rem;
+            background-color: rgba(0, 0, 0, 0.85);
+            position: relative;
+            top: -3rem;
+            left: 0;
+
+            a {
+                text-decoration: none;
+                color: white;
+            }
+        }
+
+        ul {
+            background-color: rgba(0, 0, 0, 0.704);
+            width: 50rem;
+            margin: 0 auto;
+            padding: 0 0 0 5rem;
+            position: relative;
+            top: -3rem;
+            left: 0;
+
+            li {
+                font-size: 2.5rem;
+                list-style-type: none;
+                text-align: left;
+            }
+        }
+    }
+
+    .solapas__modelos {
+        height: 12rem;
+        width: 36rem;
+        flex-wrap: wrap;
+        position: sticky;
+        top: 8.5rem;
+        border: black 0.1rem solid;
+        padding: 0.5rem 1rem;
+
+        .nav-link {
+            width: 10rem;
+        }
+    }
+
+    .solapas__accesorios {
+
+        height: 6rem;
+        width: 40rem;
+        flex-wrap: wrap;
+        position: sticky;
+        top: 8.5rem;
+        border-bottom: solid 1px white;
+        border-right: solid 1px white;
+
+        .nav-link {
+            font-size: 1.8rem;
+            width: 11.2rem;
+            padding: 5px 5px;
+            margin: 5px;
+        }
+    }
+
+    .envios__seccion {
+        color: white;
+        font-size: 2rem;
+
+        div {
+            width: 80%;
+            background-color: #6d597a;
+        }
+    }
+
+    .envios__zona {
+        height: 55vh;
+        width: 100%;
+        padding: 0;
+        display: block;
+
+        li {
+            width: 85%;
+            height: 45%;
+            padding: 0 auto;
+        }
+
+        li img {
+            margin: 0.5rem 0;
+        }
+    }
+
+    .envios__seccion ul li {
+        margin: 1rem 2rem;
+    }
+
+    .contacto__formulario h4 {
+        width: 80%;
+    }
+
+    form {
+        width: 80%;
+        padding: 1% 2.5% 1% 2.5%;
+
+        .contacto__email input {
+            width: 25rem;
+        }
+
+        fieldset textarea {
+            height: 10rem;
+        }
+    }
 
     footer {
         height: 100rem;
+
+        .footer__logo {
+            width: 20rem;
+        }
+
+        .footer__secciones-caja {
+            width: 16rem;
+            flex-wrap: wrap;
+        }
+
+        h5 {
+            height: 2rem;
+        }
+
+        .container {
+            height: 98rem;
+        }
     }
 }
 
-    
 
-/*------------moto g4-------*/
 
-@media (max-width: 360px) { 
+
+/*------------moto g4-----------------------------------------------------------------*/
+
+@media (max-width: 360px) {
     .index__carrusel {
         width: 352px;
         height: 230px;
@@ -201,154 +551,170 @@ form {
     .seccionMarcas {
         width: 360px;
         margin: 0;
+        height: 20rem;
+        padding: 0.2rem;
+
         h2 {
             font-size: 2rem;
         }
+
         ul {
-            width: 352px;}
-            height: 20rem;
-            padding: 0.2rem ;
-     
-   
-    }
-    .imagenesSeccion {
-        height: 16rem;
-        flex-wrap: wrap;
-        padding: 0;
-        margin: 0 auto;
-    }
-     .imagenesSeccion li img {
-        width: 6rem;
-        height: 6rem;
-        margin: 0rem 1rem;
-    }
-    .carrusel__texto-accesorios {
-        color: white;
-    h5{
-        font-size: 1rem;
-        padding: 0.2rem;
-        margin: 1rem auto 1rem auto;
-        width: 20rem;
-        text-align: center;
-        background-color: rgba(255, 0, 0, 0.404);
-        position: relative;
-        top: -22px; left: 5px;
-        
-        a {
-            text-decoration: none;
-            color: white;
-            font-weight: 800;
+            width: 36rem;
         }
-    }
-    
-    p {
-        font-size: 1rem;
-        width: 25rem;
-        margin: 0 auto;
-        background-color: rgba(0, 0, 0, 0.404);
-        position: relative;
-        top: -1rem; left: 0;
-        display: none;
-    }
-    .nuevo__modelo{
-        background-color: rgba(255, 0, 0, 0.479);
-        width: 30rem;
-        height: 4rem;
-        margin: 4rem auto 0 auto;
-        display: none;
-    }
-    }
-    
-    .carrusel__texto-iphone {
-        color: white;
-    h5{
-        font-size: 3rem;
-        padding: 0.5rem;
-        margin: 1rem auto 2rem auto;
-        width: 30rem;
-        text-align: center;
-        background-color: rgba(0, 0, 0, 0.404);
-        position: relative;
-        top: -2rem; left: 0;
-        a {
-            text-decoration: none;
-            color: white;
-            font-weight: 800;
-        }
-    }
-    
-    p {
-        font-size: 3rem;
-        width: 50rem;
-        margin: 2rem auto 0 auto;
-        padding: 0 1rem;
-        background-color: rgba(0, 0, 0, 0.65);
-        position: relative;
-        top: -2rem; left: 0;
-        
-    }
-    ul { 
-        background-color: rgba(0, 0, 0, 0.404);
-        width: 50rem;
-        margin: 0 auto;
-        padding: 0 0 0 5rem;
-        position: relative;
-        top: -2rem; left: 0;
-      li {
-        font-size: 2rem;
-        list-style-type: none;
-        text-align: left;
-    }  
-    }
-    }
-    
-    .carrusel__texto-xiaomi {
-        color: white;
-    h5{
-        font-size: 4rem;
-        padding: 0.5rem;
-        margin: 1rem auto 2rem auto;
-        width: 50rem;
-        text-align: center;
-        background-color: rgba(0, 0, 0, 0.75);
-        position: relative;
-        top: -3rem; left: 0;
-        a {
-            text-decoration: none;
-            color: white;
-            font-weight: 800;
-        }
-    }
-    
-    p {
-        font-size: 2rem;
-        width: 50rem;
-        margin: 2rem auto 0 auto;
-        padding: 0 1rem;
-        background-color: rgba(0, 0, 0, 0.85);
-        position: relative;
-        top: -3rem; left: 0;
-        a {
-        text-decoration: none;
-        color: white;
-        }
-    }
-    ul { 
-        background-color: rgba(0, 0, 0, 0.704);
-        width: 50rem;
-        margin: 0 auto;
-        padding: 0 0 0 5rem;
-        position: relative;
-        top: -3rem; left: 0;
-      li {
-        font-size: 2.5rem;
-        list-style-type: none;
-        text-align: left;
-    }  
-    }
     }
 
-    .solapas__modelos{
+    .imagenesSeccion li img {
+        width: 6rem;
+        height: 6rem;
+        margin: 0rem 0.5rem;
+    }
+
+    .carrusel__texto-accesorios {
+        color: white;
+
+        h5 {
+            font-size: 1rem;
+            padding: 0.2rem;
+            margin: 1rem auto 1rem auto;
+            width: 20rem;
+            text-align: center;
+            background-color: rgba(255, 0, 0, 0.404);
+            position: relative;
+            top: -22px;
+            left: 5px;
+
+            a {
+                text-decoration: none;
+                color: white;
+                font-weight: 800;
+            }
+        }
+
+        p {
+            font-size: 1rem;
+            width: 25rem;
+            margin: 0 auto;
+            background-color: rgba(0, 0, 0, 0.404);
+            position: relative;
+            top: -1rem;
+            left: 0;
+            display: none;
+        }
+
+        .nuevo__modelo {
+            background-color: rgba(255, 0, 0, 0.479);
+            width: 30rem;
+            height: 4rem;
+            margin: 4rem auto 0 auto;
+            display: none;
+        }
+    }
+
+    .carrusel__texto-iphone {
+        color: white;
+
+        h5 {
+            font-size: 3rem;
+            padding: 0.5rem;
+            margin: 1rem auto 2rem auto;
+            width: 30rem;
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.404);
+            position: relative;
+            top: -2rem;
+            left: 0;
+
+            a {
+                text-decoration: none;
+                color: white;
+                font-weight: 800;
+            }
+        }
+
+        p {
+            font-size: 3rem;
+            width: 50rem;
+            margin: 2rem auto 0 auto;
+            padding: 0 1rem;
+            background-color: rgba(0, 0, 0, 0.65);
+            position: relative;
+            top: -2rem;
+            left: 0;
+
+        }
+
+        ul {
+            background-color: rgba(0, 0, 0, 0.404);
+            width: 50rem;
+            margin: 0 auto;
+            padding: 0 0 0 5rem;
+            position: relative;
+            top: -2rem;
+            left: 0;
+
+            li {
+                font-size: 2rem;
+                list-style-type: none;
+                text-align: left;
+            }
+        }
+    }
+
+    .carrusel__texto-xiaomi {
+        color: white;
+
+        h5 {
+            font-size: 4rem;
+            padding: 0.5rem;
+            margin: 1rem auto 2rem auto;
+            width: 50rem;
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.75);
+            position: relative;
+            top: -3rem;
+            left: 0;
+
+            a {
+                text-decoration: none;
+                color: white;
+                font-weight: 800;
+            }
+        }
+
+        p {
+            font-size: 2rem;
+            width: 50rem;
+            margin: 2rem auto 0 auto;
+            padding: 0 1rem;
+            background-color: rgba(0, 0, 0, 0.85);
+            position: relative;
+            top: -3rem;
+            left: 0;
+
+            a {
+                text-decoration: none;
+                color: white;
+            }
+        }
+
+        ul {
+            background-color: rgba(0, 0, 0, 0.704);
+            width: 50rem;
+            margin: 0 auto;
+            padding: 0 0 0 5rem;
+            position: relative;
+            top: -3rem;
+            left: 0;
+
+            li {
+                font-size: 2.5rem;
+                list-style-type: none;
+                text-align: left;
+            }
+        }
+    }
+
+    .solapas__modelos {
         height: 12rem;
         width: 36rem;
         flex-wrap: wrap;
@@ -356,71 +722,92 @@ form {
         top: 7.5rem;
         border: black 0.1rem solid;
         padding: 0.5rem 1rem;
+
         .nav-link {
             width: 10rem;
-            }
+        }
     }
 
-    .solapas__accesorios{
-        height: 12rem;
+    .solapas__accesorios {
+        height: 5rem;
         width: 36rem;
         flex-wrap: wrap;
         position: sticky;
-        top: 7.5rem;
-        .nav-link {
-            width: 12rem;
-            }
-    }
-    
-.envios__seccion {
-    color: white;
-    font-size: 2rem;
-    div {
-    width: 80%;    
-    background-color: #6d597a;
-    }
-}
+        top: 7.7rem;
+        border-bottom: solid 1px white;
+        padding: 3px 10px;
 
-.envios__zona {
-    height: 55vh;
-    width: 100%;
-    padding: 0;
-    display: block;
-    li {
-        width: 85%;
-        height: 45%;
-        padding: 0 auto;
+        .nav-link {
+            font-size: 1.5rem;
+            width: 10.2rem;
+            margin: 5px;
+        }
     }
-    li img {
-        margin: 0.5rem 0;
+
+    .envios__seccion {
+        color: white;
+        font-size: 2rem;
+
+        div {
+            width: 80%;
+            background-color: #6d597a;
+        }
     }
-}
-.envios__seccion ul li {
-    margin: 1rem 2rem;
-}
-.contacto__formulario h4 {
-    width: 80%;
-}
-form {
-    width: 80%;
-    padding: 1% 2.5% 1% 2.5%;
-    .contacto__email input {
-        width: 25rem;
+
+    .envios__zona {
+        height: 55vh;
+        width: 100%;
+        padding: 0;
+        display: block;
+
+        li {
+            width: 85%;
+            height: 45%;
+            padding: 0 auto;
+        }
+
+        li img {
+            margin: 0.5rem 0;
+        }
     }
-}
+
+    .envios__seccion ul li {
+        margin: 1rem 2rem;
+    }
+
+    .contacto__formulario h4 {
+        width: 80%;
+    }
+
+    form {
+        width: 80%;
+        padding: 1% 2.5% 1% 2.5%;
+
+        .contacto__email input {
+            width: 25rem;
+        }
+
+        fieldset textarea {
+            height: 10rem;
+        }
+    }
 
     footer {
-        height: 98rem;
-        .footer__logo{
+        height: 100rem;
+
+        .footer__logo {
             width: 20rem;
         }
+
         .footer__secciones-caja {
             width: 16rem;
             flex-wrap: wrap;
         }
+
         h5 {
             height: 2rem;
         }
+
         .container {
             height: 98rem;
         }
